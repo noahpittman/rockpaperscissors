@@ -50,7 +50,7 @@ const Home = () => {
 
 	return (
 		<div className="min-h-screen flex gap-8 flex-col justify-center items-center p-4">
-			<div className="text-xl font-semibold">
+			<div className="sm:text-xl text-lg text-center font-semibold">
 				{!result ? (
 					<p>Push a button to play rock paper scissors!</p>
 				) : (
